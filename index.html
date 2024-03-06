@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar_logo">
+                <div class="logo_img">
+                    <a href=""><img src="/assets/images/Ahmed.png" height="60" alt=""></a> 
+                </div>
+                <a href="#"><span class="logo_name">Ahmed Dhicis</span></a>
+            </div>
+                <ul class="navbar-menu">
+                    <li class="navbar-link"><a href="#" id="home_link" class="links">Home</a></li>
+                    <li class="navbar-link"><a href="#about_sec" class="links" >About</a></li>
+                    <li class="navbar-link"><a href="#projects_sec" class="links">Projects</a></li>
+                    <li class="navbar-link"><a href="/assets/Ahmed Dhicis.pdf" class="links">Resume</a></li>
+                    <li class="navbar-link"><a href="#contact" class="links">Contact</a></li>
+                </ul>
+                <div class="menu-btn">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+        </nav>
+        </header>
+    <main>
+        <section class="hero_section">
+                <div class="hero_content">
+                   <div class="section_one">
+                       <h1>Hello Nice to Meet You!</h1>
+                       <p>I am Ahmed Dhicis, an adept Web Developer, who bring his experience in HTML/CSS, Javascript, and React to create dynamic and user-friendly web experiences.</p>
+                   </div>
+                   <!-- <div class="section_two">
+                      <button class="btn_moreInfo">Projects</button>
+                   </div> -->
+                </div>        
+        </section>
+       <section class="about_section" id="about_sec">
+           <h2>About Me</h2>
+           <div class="about_heading">
+               <span>Welcome to my portfolio Website; You'll get to know more about me here</span>
+           </div>
+               <div class="about_content">
+                   <div class="about_description">
+                       <h3>Get to know more about me!</h3>
+                       <p>I am a motivated and detail-oriented Front End Web Developer. Developed highly responsive and user-friendly websites. Proficient in HTML, CSS, JavaScript, and various front-end frameworks. Strong problem-solving skills and a passion for creating visually appealing and intuitive interfaces. Excellent team player and effective communicator.
+                       </p>
+                   </div>
+                       <div class="myskills"> 
+                           <h3>My Skills</h3>
+                           <div class="skills">
+                               <div class="about_skills">HTML</div>
+                               <div class="about_skills">CSS</div>
+                               <div class="about_skills">JavaScript</div>
+                               <div class="about_skills">Git</div>
+                               <div class="about_skills">Terminal</div>
+                               <div class="about_skills">Responsive Design</div>
+                               <div class="about_skills">Web Hosting</div>
+                               <div class="about_skills">SEO Best Practices</div>
+                               <div class="about_skills">CMS WordPress</div>
+                               <div class="about_skills">Troubleshooting</div>
+                           </div>
+                   </div>
+               </div>
+       </section>
+       <section class="projects_section" id="projects_sec">
+           <h2>Projects</h2>
+           <div class="projects_heading">
+               <span>Welcome to my portfolio Website; You'll get to know more about me here</span>
+           </div>
+           <div class="projects_content">
+               <div class="projects" id="ucl_today">
+                    <img src="/assets/images/ucltoday.png" alt="ucl_blog">
+                    <div class="projects_description">
+                        <h3>UCL Today Blog</h3>
+                        <p>Responsive sports blog website focusing on the use of flexbox, nav menu, semantic HTML5 and Contact Form validation </p>
+                        <a href="https://ucltoday.netlify.app" target="_blank" class="btn">View Project</a>
+                        <a href="https://github.com/buraled252/EuropeanSportsBlog" target="_blank" class="btn">View Source Code</a>
+                    </div>
+                </div>
+                <div class="projects" >
+                    <img src="/assets/images/rockps.png" alt="Rock_Paper_Scissors_Game">
+                    <div class="projects_description">
+                        <h3>Rock Paper Scissor Game</h3>
+                        <p>In this project, I made use of my knowledge with JavaScript and The DOM. Covered different aspect of web development </p>
+                        <a href="https://rockpc.netlify.app" target="_blank" class="btn">View Project</a>
+                        <a href="https://github.com/buraled252/Rock_Paper_Scissors_Game" target="_blank" class="btn">View Source Code</a>
+                    </div>
+                </div><div class="projects" >
+                    <img src="/assets/images/dailyPlanner.png" alt="daily_planner">
+                    <div class="projects_description">
+                        <h3>Daily Planner App</h3>
+                        <p>A Chrome plugin where I employed the development and deployment of simple App from scratch. JSON  </p>
+                        <a href="https://dailyplanner8.netlify.app" target="_blank" class="btn">View Project</a>
+                        <a href="https://github.com/buraled252/Daily-Planner-Extension" target="_blank" class="btn">View Source Code</a>
+                    </div>
+                </div><div class="projects" >
+                    <img src="/assets/images/portfolio.png" alt="portfolio">
+                    <div class="projects_description">
+                        <h3>Portfolio Website</h3>
+                        <p>This is my portfolio website where you'll get to know more about me. Still working on it...</p>
+                        <a href="#" class="btn">View Project</a>
+                        <a href="https://github.com/buraled252/Ahmed_Dhicis_Portfolio" class="btn">View Source Code</a>
+                    </div>
+                </div>
+           </div>
+       </section>
+       <section id="contact" class="contact-sec">
+           <div class="contact-content">
+             <h2 class="contact-title">Contact Us</h2>
+             <form action="https://formspree.io/f/mjvdnpbo" method="post"
+               class="contact-form">
+               <input type="text" name="userName" placeholder="Name" />
+               <input type="email" name="userEmail" placeholder="Email" required />
+               <textarea name="userMessage" placeholder="Message" required></textarea>
+               <button type="submit" formaction="https://formspree.io/f/mjvdnpbo" formmethod="post" class="btn-contact">Submit</button>
+               </form>
+           </div>
+       </section>
+    </main>
+    <footer>
+        <ul class="footer-content">
+            <li class="social-links"><a href="https://github.com/buraled252">Github</a></li>
+            <li class="social-links"><a href="https://linkedin.com/in/ahmed-dhicis">Linkedin</a></li>
+            <li class="social-links"><a href="#">Reddit</a></li>
+            <li class="copyright">Copyright &copy; 2023 Ahmed Burale</li>
+        </ul>
+    </footer>
+    <script src="/script.js"></script>
+</body>
+</html>
